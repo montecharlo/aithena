@@ -4,8 +4,8 @@
 
 A modular C++17 framework for NPC decisions, perception, memory, relationships, and living-world simulation.
 
-[![CI](https://github.com/montecharlo/aithena/actions/workflows/ci.yml/badge.svg)](https://github.com/montecharlo/aithena/actions/workflows/ci.yml)
-[![Version](https://img.shields.io/badge/version-2.0.2-blue.svg)](https://github.com/montecharlo/aithena/releases/tag/v2.0.2)
+[![CI](https://github.com/heysuffix/aithena/actions/workflows/ci.yml/badge.svg)](https://github.com/heysuffix/aithena/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/badge/version-2.0.2-blue.svg)](https://github.com/heysuffix/aithena/releases/tag/v2.0.2)
 [![Live demo](https://img.shields.io/badge/demo-GitHub_Pages-brightgreen.svg)](https://montecharlo.github.io/aithena/)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-WASM-654FF0.svg)](#webassembly)
@@ -22,7 +22,7 @@ Use individual header-only modules in an existing game, or compose them through 
 
 *Native 4K animation: 3840 × 2160, recorded from the C++ communal repair scenario with seed `123`. It visualizes private intentions, physical progress, evidence paths, and reputation.*
 
-The latest release is [v2.0.2](https://github.com/montecharlo/aithena/releases/tag/v2.0.2). See the [changelog](CHANGELOG.md#202--2026-10-08) and [migration guidance](#migration-from-11).
+The latest release is [v2.0.2](https://github.com/heysuffix/aithena/releases/tag/v2.0.2). See the [changelog](CHANGELOG.md#202--2026-10-08) and [migration guidance](#migration-from-11).
 
 ## Contents
 
@@ -78,7 +78,7 @@ The CLI examples use **game hours** for simulation time. A step of `0.1` advance
 | [Lua village](examples/lua_village.cpp) | `./build-lua/lua_village examples/scripts` | Guard and merchant behavior defined in Lua and connected to C++ FSM states |
 | [Browser village](https://montecharlo.github.io/aithena/) | Open in a browser | Five NPC cards, emotional state, memory strength, influence chains, and a chronological event log |
 
-The browser demo has play/pause, reset, and speed controls. It is a separate village scene from the social-contract animation. [Pages workflow results](https://github.com/montecharlo/aithena/actions/workflows/pages.yml) show the deployed build's status.
+The browser demo has play/pause, reset, and speed controls. It is a separate village scene from the social-contract animation. [Pages workflow results](https://github.com/heysuffix/aithena/actions/workflows/pages.yml) show the deployed build's status.
 
 Run `social_contract_demo 7` or `social_contract_demo 42` to explore other choices. The same social seed and causal inputs reproduce the same keyed decisions; the broader runtime also has its own mutable random generator.
 
@@ -652,4 +652,4 @@ CI publishes runtime and social benchmark artifacts on pushes. Source programs a
 
 Aithena is available under the [MIT License](LICENSE). See [CHANGELOG.md](CHANGELOG.md) for release history.
 
-For bug reports and feature requests, use [GitHub Issues](https://github.com/montecharlo/aithena/issues). Project contact: [solus.aris@proton.me](mailto:solus.aris@proton.me).
+For bug reports and feature requests, use [GitHub Issues](https://github.com/heysuffix/aithena/issues). Project contact: [suffix.dev@proton.me](mailto:suffix.dev@proton.me).
