@@ -158,8 +158,8 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-[Unreleased]: https://github.com/montecharlo/aithena/compare/v2.0.1...HEAD
-[2.0.1]: https://github.com/montecharlo/aithena/compare/v2.0.0...v2.0.1
-[2.0.0]: https://github.com/montecharlo/aithena/compare/v1.1.0...v2.0.0
-[1.1.0]: https://github.com/montecharlo/aithena/releases/tag/v1.1.0
-[1.0.0]: https://github.com/montecharlo/aithena/releases/tag/v1.0.0
+[Unreleased]: https://github.com/heysuffix/aithena/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/heysuffix/aithena/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/heysuffix/aithena/compare/v1.1.0...v2.0.0
+[1.1.0]: https://github.com/heysuffix/aithena/releases/tag/v1.1.0
+[1.0.0]: https://github.com/heysuffix/aithena/releases/tag/v1.0.0
